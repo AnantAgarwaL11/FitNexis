@@ -1,8 +1,9 @@
-package com.example.fitnexis;
+package com.example.fitnexis.network;
 
 import android.content.Context;
 
-import com.example.fitnexis.models_tutorials.JSON_TutorialResponseModel;
+import edu.csueb.codepath.fitness_tracker.R;
+import edu.csueb.codepath.fitness_tracker.models_tutorials.JSON_TutorialResponseModel;
 import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
