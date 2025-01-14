@@ -1,5 +1,7 @@
 package com.example.fitnexis.fragments;
 
+import static android.os.Build.VERSION_CODES.R;
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
@@ -37,7 +39,7 @@ public class TrackFragment extends Fragment {
 
     public static final String TAG = "TrackFragment";
     private RecyclerView rvWorkout;
-    private WorkoutListAdapter workoutListAdapter;
+    private com.example.fitnexis.fragments.WorkoutListAdapter workoutListAdapter;
     List<String> workouts;  //is going to be used to store the workouts
     List<String> selected;  //is going to hold workouts that has been checked
 

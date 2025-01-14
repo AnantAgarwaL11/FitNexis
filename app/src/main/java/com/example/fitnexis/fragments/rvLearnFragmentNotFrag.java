@@ -18,11 +18,11 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.csueb.codepath.fitness_tracker.R;
-import edu.csueb.codepath.fitness_tracker.adapters.TutorialAdapterHome;
-import edu.csueb.codepath.fitness_tracker.models_tutorials.JSON_TutorialResponseModel;
-import edu.csueb.codepath.fitness_tracker.models_tutorials.VideoYT;
-import edu.csueb.codepath.fitness_tracker.network.YoutubeAPI;
+import com.example.fitnexis.R;
+import com.example.fitnexis.TutorialAdapterHome;
+import com.example.fitnexis.models_tutorials.JSON_TutorialResponseModel;
+import com.example.fitnexis.models_tutorials.VideoYT;
+import com.example.fitnexis.network.YoutubeAPI;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

@@ -65,4 +65,5 @@ dependencies {
     annotationProcessor (libs.parceler)
     implementation (libs.cardview)
     implementation (libs.material.v121)
+    implementation("com.github.AtifSayings:Animatoo:1.0.1")
 }

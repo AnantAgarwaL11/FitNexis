@@ -12,7 +12,8 @@
         android:id="@+id/player"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:transitionName="ImageVideoName" />
+        android:transitionName="ImageVideoName"
+        tools:ignore="MissingClass" />
 
     <TextView
         android:id="@+id/tvTitlePlayback"
